@@ -4,7 +4,7 @@ Live wallpaper for Linux (so far tested on Linux Mint Cinnamon and Ubuntu)
 
 Because a distro might have a different implementation on how desktop works, you might need to some extra steps
 
-For example this is how it would look on Ubuntu
+For example this is how it would look
 
 ```sh
 ./live-wallpaper.py live.mp4 &
