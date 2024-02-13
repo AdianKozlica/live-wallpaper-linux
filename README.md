@@ -8,6 +8,7 @@ For example this is how it would look on Ubuntu
 
 ```sh
 ./live-wallpaper.py live.mp4 &
+# Below commands are only if you are not launching at startup
 sleep 5s # Give some time to start
 killall -3 gnome-shell # On Ubuntu
 xdotool windowactivate $(wmctrl -l | awk '$4=="Desktop" {print $1}') # On Linux Mint
